@@ -1,0 +1,24 @@
+plugins {
+    id 'java' // For Java projects
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+group 'com.kumar' // Change to your group ID
+version '1.0-SNAPSHOT' // Change to your version
+
+
+repositories {
+    mavenCentral() // Use Maven Central repository
+}
+
+dependencies {
+    // Add your project dependencies here
+    
+}
+
+
