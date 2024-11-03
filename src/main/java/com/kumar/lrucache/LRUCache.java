@@ -15,7 +15,7 @@ public abstract class LRUCache<K, V> {
     
     /**
      * Get function returns the value stored against the key(if present in the cache).
-     * If element is not present in the cache, it returns -1.
+     * If element is not present in the cache, it returns EMPTY string.
      * 
      * @param key cache key
      * @return value stored against the key
