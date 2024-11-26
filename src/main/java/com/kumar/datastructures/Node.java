@@ -1,6 +1,6 @@
 package com.kumar.datastructures;
 
-public class Node implements Comparable {
+public class Node implements Comparable<Node> {
     final int key;
     final int count;
 
@@ -30,7 +30,7 @@ public class Node implements Comparable {
      * @return
      */
     @Override
-    public int compareTo(Object node) {
+    public int compareTo(Node node) {
         Node inNode = (Node) node;
         if(this.count < inNode.getCount()) {
             return -1;
